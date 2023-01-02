@@ -1,9 +1,7 @@
 <template>
   <div class="layout">
     <!-- Header -->
-    <div class="layout__content">
-      <RouterView />
-    </div>
+    <div class="layout__content"><RouterView /><!--所有路由要輸出畫面的地方--></div>
     <!-- Footer -->
   </div>
 </template>

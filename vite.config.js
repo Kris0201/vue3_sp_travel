@@ -14,9 +14,11 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
+        // 全域用 & 共用的元件的css，注意import順序
         additionalData: `
           @import "./src/scss/helpers/_variable.scss";
           @import "./src/scss/helpers/_viewport.scss";
+          @import "./src/scss/components/buttonStyle.scss";
         `,
       },
     },

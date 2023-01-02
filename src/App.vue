@@ -1,5 +1,6 @@
 <template>
   <component :is="layout"></component>
+  <!--動態傳入layout資料夾裡的設定-->
 </template>
 <script>
 export default {
