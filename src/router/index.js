@@ -13,7 +13,7 @@ const router = createRouter({
     },
     {
       path: '/example',
-      name: 'index',
+      name: 'example',
       component: () => import('../views/example/example.vue'),
       meta: {
         layout: 'ExampleLayout',
@@ -23,6 +23,15 @@ const router = createRouter({
       path: '/:catchAll(.*)',
       redirect: { name: 'index' },
     },
+    // {
+    //   path: '/styleGuideMenu',
+    //   name:'styleGuideMenu',
+    //   component:()=> import('../views/example/styleGuideMenu.vue'),
+    //   meta: {
+    //     // 每支路由都要加這段meta，表示套用example layout
+    //     layout: 'ExampleLayout', 
+    //   },
+    // },
   ],
 })
 
