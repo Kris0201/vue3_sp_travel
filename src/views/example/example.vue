@@ -14,6 +14,12 @@
     <PiniaExample v-if="demo === 'Pinia'"></PiniaExample>
     <SvgExample v-if="demo === 'Svg'"></SvgExample>
   </div>
+
+  <div class="styleDisplay">
+    引入 styleGuideMenu：
+    <styleGuideMenu></styleGuideMenu>
+    <Pagination></Pagination>
+  </div>
 </template>
 <script>
 export default {
@@ -24,6 +30,8 @@ export default {
 import { computed, reactive } from 'vue'
 import PiniaExample from './components/PiniaExample.vue'
 import SvgExample from './components/SvgExample.vue'
+import styleGuideMenu from './styleGuideMenu.vue'
+import Pagination from '@/components/global/pagination.vue'
 
 const menuConfig = reactive({
   isOpen: false,
