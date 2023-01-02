@@ -19,6 +19,7 @@
     引入 styleGuideMenu：
     <styleGuideMenu></styleGuideMenu>
     <Pagination></Pagination>
+    <SearchInput></SearchInput>
   </div>
 </template>
 <script>

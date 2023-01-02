@@ -23,7 +23,7 @@
     </div>
     <div>
       <h3>Icon Demo</h3>
-      <img src="@/assets/icons/anping-fort.svg" alt="" />
+      <SvgIcon class="icon" name="anping-fort"></SvgIcon>
       <br />
       <img src="@/assets/images/LOGO.svg" alt="" />
     </div>
@@ -37,6 +37,11 @@ export default {
 <style lang="scss" scoped>
 .demo {
   margin: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
 }
 
 // mixin 示範
