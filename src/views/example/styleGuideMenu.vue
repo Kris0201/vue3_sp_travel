@@ -18,6 +18,8 @@
 
       <div class="note">solid</div>
       <button type="button" class="solidBtn">基隆</button>
+      <div class="note">disabled</div>
+      <button type="button" class="solidBtn" disabled>基隆</button>
     </div>
     <div>
       <h3>Icon Demo</h3>

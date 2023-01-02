@@ -12,14 +12,19 @@
   letter-spacing: $content-dk-body-letter-spacing;
   cursor: pointer;
 
-  &:hover {
+  &:hover:not(:disabled) {
     color: $color-hover;
     background-color: $bg-hover;
   }
 
-  &:active {
+  &:active:not(:disabled) {
     color: $color-active;
     background-color: $bg-active;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $primary-2;
   }
 }
 
