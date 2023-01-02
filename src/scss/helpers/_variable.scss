@@ -7,3 +7,111 @@ $z-index-modal-backdrop: 1040;
 $z-index-modal: 1050;
 $z-index-popover: 1060;
 $z-index-tooltip: 1070;
+
+// font-face
+$font: 'Noto Sans TC', arial, sans-serif;
+
+// font-color
+// primary
+$primary-1: #3fb195;
+$primary-2: rgba(63, 177, 149, 0.2); // 20%透明
+$primary-3: rgba(63, 177, 149, 0.08); // 8%透明
+
+// secondary
+$secondary-1: #222;
+$secondary-2: rgba(0, 0, 0, 0.6); // 20%透明
+$secondary-3: rgba(0, 0, 0, 0.38); // 8%透明
+
+$white: #fff;   // bg
+$gray: #fafafa; // bg
+$line: rgba(0, 0, 0, 0.08);
+$shadow: 0 14px 24px rgba(0, 0, 0, 0.04);
+
+// font-size
+$f-s-base: 1rem; // 16px
+$h1: 3.625rem; // 58px lg 大標
+$h2: 2.0625rem; // 33px sm 大標
+$h3: 1.5rem; // 24px page 標題
+$content-title: 1.125rem; // 18px 內文標題、項目標題
+$content-dk-body: 1.125rem; // 18px lg & md 內文
+$content-mb-body: 1rem; // 16px sm 內文
+$note: 0.875rem; // 14px 備註文字
+
+// font-weight
+$f-w-bold: 700;
+$f-w-base: 400;
+
+// line-height
+$line-height-base: 1rem; // 16px
+$h1-line-height: 4.5rem; // 72px
+$h2-line-height: 2.25rem; // 36px
+$h3-line-height: 2.25rem;
+$content-title-line-height: 1.5rem; // 24px
+$content-dk-body-line-height: 1.6875rem; // 27px
+$content-mb-body-line-height: 1.5rem; // 24px
+$note-line-height: 1.25rem; // 20px
+
+// letter-spacing
+$h1-letter-spacing: -0.5px;
+$h2-letter-spacing: 0.25px;
+$h3-letter-spacing: 0.25px;
+$content-title-letter-spacing: 0.15px;
+$content-dk-body-letter-spacing: 0.15px;
+$content-mb-body-letter-spacing: 0.5px;
+$note-letter-spacing: 0.25px;
+
+h1,
+h2,
+h3,
+p {
+  font-family: $font;
+}
+
+h1 {
+  font-size: $h1;
+  font-weight: $f-w-bold;
+  line-height: $h1-line-height;
+  letter-spacing: $h1-letter-spacing;
+}
+
+h2 {
+  font-size: $h2;
+  font-weight: $f-w-bold;
+  line-height: $h2-line-height;
+  letter-spacing: $h2-letter-spacing;
+}
+
+h3 {
+  font-size: $h3;
+  font-weight: $f-w-bold;
+  line-height: $h3-line-height;
+  letter-spacing: $h3-letter-spacing;
+}
+
+.content-title {
+  font-size: $content-title;
+  font-weight: $f-w-bold;
+  line-height: $content-title-line-height;
+  letter-spacing: $content-title-letter-spacing;
+}
+
+.content-dk-body {
+  font-size: $content-dk-body;
+  font-weight: $f-w-base;
+  line-height: $content-dk-body-line-height;
+  letter-spacing: $content-dk-body-letter-spacing;
+}
+
+.content-mb-body {
+  font-size: $content-mb-body;
+  font-weight: $f-w-base;
+  line-height: $content-mb-body-line-height;
+  letter-spacing: $content-mb-body-letter-spacing;
+}
+
+.note {
+  font-size: $note;
+  font-weight: $f-w-base;
+  line-height: $note-line-height;
+  letter-spacing: $note-letter-spacing;
+}
