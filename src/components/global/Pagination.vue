@@ -20,12 +20,16 @@ export default {
 .pagination {
   display: flex;
   gap: 12px;
+  align-items: center;
+  color: $primary-1;
 }
 
-button {
+.solidBtn,
+.hollowBtn {
   padding: 10px 17.5px;
-  width: 44px;
+  min-width: 44px;
   height: 44px;
   text-align: center;
+  line-height: 50%;
 }
 </style>
