@@ -31,7 +31,7 @@ import { computed, reactive } from 'vue'
 import PiniaExample from './components/PiniaExample.vue'
 import SvgExample from './components/SvgExample.vue'
 import styleGuideMenu from './styleGuideMenu.vue'
-import Pagination from '@/components/global/pagination.vue'
+// import Pagination from '@/components/global/pagination.vue' 已經動態註冊，不用再寫import
 
 const menuConfig = reactive({
   isOpen: false,
