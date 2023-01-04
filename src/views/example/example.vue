@@ -20,6 +20,8 @@
     <styleGuideMenu></styleGuideMenu>
     <Pagination></Pagination>
     <SearchInput></SearchInput>
+    <TravelCard></TravelCard>
+    <AreaSelector></AreaSelector>
   </div>
 </template>
 <script>
